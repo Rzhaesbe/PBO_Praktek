@@ -9,7 +9,7 @@ package Akbar_05052023;
  * @author Dell
  */
 public class BukuAlamat {
-      private String nama;
+    private String nama;
     private String alamat;
     private String notelp;
     private String email;
