@@ -74,7 +74,7 @@ public class BukuController {
         buku.setJudul(view.getTxtJudul().getText());
         buku.setPengarang(view.getTxtPengarang().getText());
         buku.setPenerbit(view.getTxtPenerbit().getText());
-        dao.insert(buku);
+        dao.update(index,buku);
         JOptionPane.showMessageDialog(view,"Update Data OK");
     }
      
